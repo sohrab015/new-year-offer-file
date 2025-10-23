@@ -1,0 +1,252 @@
+/* shered styles */
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.red-one{
+    color: #FF0000;
+}
+
+.btn-1{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-1 a, .btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-2{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #FF0000;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* header */
+header {
+    margin: 37.5px auto 37.5px auto;
+    justify-content: center;
+    align-items: center;
+
+    /* size */
+    width: 990px;
+    height: 450px;
+
+    /* linier gradient and Backgroung image */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../images/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+}
+
+.header-container p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.header-container h1 {
+    color: white;
+    font-size: 54px;
+    text-align: center;
+    line-height: 65px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* card one section */
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-one{
+    font-size: 66px;
+    font-weight: bold;
+}
+
+.description-one{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.description-two{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.img-one img{
+    width: 600px;
+    align-items: center;
+}
+
+/* vector section */
+.vector{
+    margin: 90px auto 37.5px auto;
+    justify-content: center;
+    align-items: center;
+
+    /* size */
+    width: 990px;
+    height: 450px;
+
+    /* linier gradient and Backgroung image */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url('../images/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.heading-two{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.description-3{
+    color: beige;
+    font-size: 13.5px;
+}
+
+.vector-img img{
+    max-width: 240px;
+}
+
+/* time section */
+.time{
+    margin: 90px auto 37.5px auto;
+    justify-content: center;
+    align-items: center;
+
+    /* size */
+    width: 990px;
+    height: 365px;
+
+    /* linier gradient and Backgroung image */
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.05));
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-glow{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.heading-3{
+    font-size: 24px;
+}
+
+/* comming soon section */
+.comming-soon{
+    margin: 90px auto 37.5px auto;
+    justify-content: center;
+    align-items: center;
+
+    width: 990px;
+    height: 365px;
+
+    
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 88px;
+}
+
+.commingsoon-subsection-1
+
+.heading-4{
+    color: #FF0000;
+    font-size: 18px;
+}
+
+.heading-5{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.description-4{
+    color: #070211;
+    font-size: 15px ;
+    opacity: 60%;
+}
+
+.commingsoom-subsection-2 img{
+    width: 273px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 7px solid #FF0000;
+}
+
+.commingsoon-subsection-3
+
+.heading-6{
+    color: #FF0000;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.happy-img img{
+    max-width: 105px;
+}
+
+
+/* discount section */
+.discount{
+    margin: 90px auto 37.5px auto;
+    justify-content: center;
+    align-items: center;
+    width: 990px;
+    height: 740px;
+    border-radius: 10px;
+
+    background-image: url('../images/Rectangle\ 2.png');
+    /* background-size: cover; */
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
