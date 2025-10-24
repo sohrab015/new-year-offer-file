@@ -250,3 +250,40 @@ header {
     background-position: bottom;
     background-repeat: no-repeat;
 }
+
+.heading-7{
+      font-size: 18px;
+      font-weight: 500px;
+      text-align: center;
+      margin-bottom: 0;
+      padding-bottom: 0;
+}
+
+.heading-8{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.discount .discount-sub-box .description-4{
+    text-align: center;
+}
+
+.discount-images{
+    display: flex;
+    flex-direction: row;
+    gap: 178px;
+    padding-top: 120px;
+    padding-left: 80px;
+}
+
+.box{
+    width: 450px;
+}
+
+.discount-2{
+    width: 165px;
+    height: 165px;
+}
